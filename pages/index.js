@@ -1,4 +1,5 @@
 import { Box, Container, Heading, Image, useColorModeValue } from '@chakra-ui/react'
+import Section from '../components/section'
 
 export default function Home() {
   return (
@@ -28,15 +29,20 @@ export default function Home() {
             borderWidth={2}
             borderStyle="solid"
             display="inline-block"
-            style={{ width: '104px', height: '110px', borderRadius: '50%' }}
+            style={{ width: '94px', height: '100px', borderRadius: '50%' }}
             src="/images/profile.jpg"
             alt="Profile image"
 
           ></Image>
-
         </Box>
-
       </Box>
+
+
+      <Section delay={0.5}>
+        <Heading as="h3" variant="section-title">
+          Work
+        </Heading>
+      </Section>
     </Container>
   )
 }
