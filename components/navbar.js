@@ -2,6 +2,8 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 import { Box, Container, Flex, Heading, IconButton, Link, Menu, MenuButton, MenuItem, MenuList, Stack, useColorModeValue } from '@chakra-ui/react'
 import NextLink from 'next/link'
 import Logo from './logo'
+import ThemeToggleButton from './themeToggleButton'
+
 
 
 
@@ -70,6 +72,8 @@ const Navbar = (props) => {
                 </Stack>
 
                 <Box flex={1} align="right">
+                    <ThemeToggleButton></ThemeToggleButton>
+
                     <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
                         <Menu>
                             <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="options" />
