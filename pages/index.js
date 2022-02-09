@@ -1,5 +1,9 @@
-import { Box, Container, Heading, Image, useColorModeValue } from '@chakra-ui/react'
+import { Box, Button, Container, Heading, Image, useColorModeValue } from '@chakra-ui/react'
+import Paragraph from '../components/paragraph'
 import Section from '../components/section'
+import NextLink from 'next/link'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import { BioSection, BioYear } from '../components/bio'
 
 export default function Home() {
   return (
@@ -42,7 +46,66 @@ export default function Home() {
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
+
+        <Paragraph>
+          Tamanna is a front‑end developer focused on crafting clean & user‑friendly experiences. She is passionate about building excellent software that improves the lives of those around me. She&apos;ve completed 15+ projects based on react.js with a good UI sense. She thinks everyday life is like programming. If you love something you can beauty into it.
+        </Paragraph>
+
+        <Box align="center" my={4}>
+          <NextLink href="/works">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              My Portfolio
+            </Button>
+          </NextLink>
+        </Box>
+
       </Section>
+
+
+      <Section delay={0.5}>
+        <Heading as="h3" variant="section-title">
+          Bio
+        </Heading>
+
+        <BioSection>
+          <BioYear>1999</BioYear>
+          Born in Cumilla, Bangladesh.
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2019 - Present</BioYear>
+          Studying English Literature at National University, Bangladesh.
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2022 - Present</BioYear>
+          Works as a Frontend Developer at Lets Dunch.
+        </BioSection>
+
+      </Section>
+
+      <Section delay={0.5}>
+        <Heading as="h3" variant="section-title">
+          I ♥
+        </Heading>
+
+        <BioSection>
+          <BioYear>1999</BioYear>
+          Born in Cumilla, Bangladesh.
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2019 - Present</BioYear>
+          Studying English Literature at National University, Bangladesh.
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2022 - Present</BioYear>
+          Works as a Frontend Developer at Lets Dunch.
+        </BioSection>
+
+      </Section>
+
     </Container>
   )
 }
