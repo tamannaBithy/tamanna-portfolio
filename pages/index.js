@@ -89,20 +89,7 @@ export default function Home() {
           I ♥
         </Heading>
 
-        <BioSection>
-          <BioYear>1999</BioYear>
-          Born in Cumilla, Bangladesh.
-        </BioSection>
-
-        <BioSection>
-          <BioYear>2019 - Present</BioYear>
-          Studying English Literature at National University, Bangladesh.
-        </BioSection>
-
-        <BioSection>
-          <BioYear>2022 - Present</BioYear>
-          Works as a Frontend Developer at Lets Dunch.
-        </BioSection>
+        <Paragraph>Art, Music, Illustration, Travelling & Coding. </Paragraph>
 
       </Section>
 
