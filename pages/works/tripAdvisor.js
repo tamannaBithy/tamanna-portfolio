@@ -7,40 +7,40 @@ import P from '../../components/paragraph'
 
 const Work = () => {
     return (
-        <Layout title="candleShop">
+        <Layout title="tripAdvisor">
             <Container>
                 <Title>
-                    CandleShop  <Badge>Nov, 2021 </Badge>
+                    tripAdvisor  <Badge>Nov, 2021 </Badge>
                 </Title>
                 <P>
-                    a mern stack project where Google firebase authentication system has used, MongoDB database have used for database & express.js is used for backend.
+                    this site is designed with react.js & mongodb data base has been used as along. firebase authentication system added for authentication.
                 </P>
                 <List ml={4} my={4}>
 
                     <ListItem>
                         <Meta>Frontend</Meta>
-                        <Link href="https://github.com/Tamanna14-cpu/candle-shop" target="_blank">
-                            https://github.com/Tamanna14-cpu/candle-shop <ExternalLinkIcon mx="2px" />
+                        <Link href="https://github.com/Tamanna14-cpu/trip-advisor" target="_blank">
+                            https://github.com/Tamanna14-cpu/trip-advisor <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
 
                     <ListItem>
                         <Meta>Backend</Meta>
-                        <Link href="https://github.com/Tamanna14-cpu/candle-shop-server" target="_blank">
-                            https://github.com/Tamanna14-cpu/candle-shop-server <ExternalLinkIcon />
+                        <Link href="https://github.com/Tamanna14-cpu/trip-advisor-server" target="_blank">
+                            https://github.com/Tamanna14-cpu/trip-advisor-server <ExternalLinkIcon />
                         </Link>
                     </ListItem>
 
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://react-candle-shop.web.app/" target="_blank">
-                            https://react-candle-shop.web.app/ <ExternalLinkIcon mx="2px" />
+                        <Link href="https://my-app-bcb15.web.app/" target="_blank">
+                            https://my-app-bcb15.web.app/ <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
 
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>firebase, mongoDB, react, react-hook-form, expressJS, heroku</span>
+                        <span>firebase, mongoDB, axios, react, expressJS, heroku</span>
                     </ListItem>
                 </List>
 

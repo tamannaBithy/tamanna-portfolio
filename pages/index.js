@@ -52,7 +52,7 @@ export default function Home() {
           </Heading>
 
           <Paragraph>
-            Tamanna is a front‑end developer focused on crafting clean & user‑friendly experiences. She is passionate about building excellent software that improves the lives of those around me. She&apos;ve completed 15+ projects based on react.js with a good UI sense. She thinks everyday life is like programming. If you love something you can beauty into it.
+            Tamanna is a front‑end developer focused on crafting clean & user‑friendly experiences. She is passionate about building excellent appllication that improves the lives of those around us. She&apos;ve completed 15+ projects based on react.js with a good UI sense. She thinks everyday life is like programming. If anyone love something they can put beauty into it.
           </Paragraph>
 
           <Box align="center" my={4}>
@@ -115,7 +115,7 @@ export default function Home() {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="www.linkedin.com/in/tamanna-akter" target="_blank">
+              <Link href="https://www.linkedin.com/in/tamanna-akter" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
@@ -125,17 +125,7 @@ export default function Home() {
                 </Button>
               </Link>
             </ListItem>
-            <ListItem>
-              <Link href="tamannabithy14@gmail.com" target="_blank">
-                <Button
-                  variant="ghost"
-                  colorScheme="teal"
-                  leftIcon={<Icon as={IoMail} />}
-                >
-                  @tamannaBithy
-                </Button>
-              </Link>
-            </ListItem>
+
             <ListItem>
               <Link href="https://web.facebook.com/chayabithy.kusum/" target="_blank">
                 <Button
@@ -146,6 +136,16 @@ export default function Home() {
                   @tamannaBithy
                 </Button>
               </Link>
+            </ListItem>
+
+            <ListItem>
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoMail} />}
+              >
+                tamannabithy14@gmail.com
+              </Button>
             </ListItem>
           </List>
         </Section>
