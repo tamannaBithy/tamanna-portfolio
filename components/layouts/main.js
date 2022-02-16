@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Box, Container } from '@chakra-ui/react'
 import Navbar from '../navbar';
 import VoxelDog from '../voxelDog';
+import Footer from '../footer';
 
 const Main = ({ children, router }) => {
     return (
@@ -20,6 +21,8 @@ const Main = ({ children, router }) => {
                 <VoxelDog />
 
                 {children}
+
+                <Footer />
             </Container>
         </Box>
 

@@ -1,10 +1,12 @@
-import { Box, Button, Container, Heading, Image, useColorModeValue } from '@chakra-ui/react'
+import { Box, Button, Container, Heading, Icon, Image, Link, List, ListItem, useColorModeValue } from '@chakra-ui/react'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
 import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
+import { IoLogoFacebook, IoLogoLinkedin, IoLogoGithub, IoMail } from 'react-icons/io5'
+
 
 export default function Home() {
   return (
@@ -93,6 +95,59 @@ export default function Home() {
 
           <Paragraph>Art, Music, Illustration, Travelling & Coding. </Paragraph>
 
+        </Section>
+
+
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            On the web
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/Tamanna14-cpu" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoGithub} />}
+                >
+                  @tamanna14
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="www.linkedin.com/in/tamanna-akter" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                >
+                  @tamanna-akter
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="tamannabithy14@gmail.com" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoMail} />}
+                >
+                  @tamannaBithy
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://web.facebook.com/chayabithy.kusum/" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoFacebook} />}
+                >
+                  @tamannaBithy
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
         </Section>
 
       </Container>
