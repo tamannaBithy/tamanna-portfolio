@@ -58,7 +58,7 @@ export default function Home() {
           <Box align="center" my={4}>
             <NextLink href="/works">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                My Portfolio
+                My Projects
               </Button>
             </NextLink>
           </Box>
