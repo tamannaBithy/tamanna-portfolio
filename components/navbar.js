@@ -117,6 +117,7 @@ const Navbar = props => {
                                 <MenuItem
                                     as={Link}
                                     href="https://github.com/Tamanna14-cpu/tamanna-portfolio"
+                                    target="_blank"
                                 >
                                     View Source
                                 </MenuItem>
