@@ -6,42 +6,51 @@ import P from "../../components/paragraph";
 
 const Work = () => {
   return (
-    <Layout title="Health-care">
+    <Layout title="jobBox">
       <Container>
         <Title>
-          Health-care <Badge>oct, 2021 </Badge>
+          CandleShop <Badge>Nov, 2021 </Badge>
         </Title>
         <P>
-          a single-page application authenticated with firebase where a user not
-          only can log in with google or GitHub but also can register a new
-          account & reset a password.
+          a mern stack project where Google firebase authentication system has
+          used, MongoDB database have used for database & express.js is used for
+          backend.
         </P>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Github</Meta>
+            <Meta>Frontend</Meta>
             <Link
-              href="https://github.com/Tamanna14-cpu/healthcare-app"
+              href="https://github.com/Tamanna14-cpu/candle-shop"
               target="_blank"
             >
-              https://github.com/Tamanna14-cpu/healthcare-app{" "}
+              https://github.com/Tamanna14-cpu/candle-shop{" "}
               <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
+
+          <ListItem>
+            <Meta>Backend</Meta>
+            <Link
+              href="https://github.com/Tamanna14-cpu/candle-shop-server"
+              target="_blank"
+            >
+              https://github.com/Tamanna14-cpu/candle-shop-server{" "}
+              <ExternalLinkIcon />
             </Link>
           </ListItem>
 
           <ListItem>
             <Meta>Website</Meta>
-            <Link
-              href="https://healthcare-website-f0a03.web.app/"
-              target="_blank"
-            >
-              https://healthcare-website-f0a03.web.app/{" "}
-              <ExternalLinkIcon mx="2px" />
+            <Link href="https://react-candle-shop.web.app/" target="_blank">
+              https://react-candle-shop.web.app/ <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
 
           <ListItem>
             <Meta>Stack</Meta>
-            <span>firebase, react, react-router, react-bootstrap</span>
+            <span>
+              firebase, mongoDB, react, react-hook-form, expressJS, heroku
+            </span>
           </ListItem>
         </List>
 
