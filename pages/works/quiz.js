@@ -1,5 +1,5 @@
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import { Badge, Container, Link, List, ListItem } from "@chakra-ui/react";
+import { Badge, Container, Link, List, ListItem, Text } from "@chakra-ui/react";
 import Layout from "../../components/layouts/article";
 import { Meta, Title } from "../../components/work";
 import P from "../../components/paragraph";
@@ -9,47 +9,58 @@ const Work = () => {
     <Layout title="quiz">
       <Container>
         <Title>
-          CandleShop <Badge>Nov, 2021 </Badge>
+          Quiz App <Badge>Jun, 2022 </Badge>
         </Title>
         <P>
-          a mern stack project where Google firebase authentication system has
-          used, MongoDB database have used for database & express.js is used for
-          backend.
+          {" "}
+          <Text as="b" fontSize="md" mr={2}>
+            1.
+          </Text>
+          a quiz app where user can give a quiz.
         </P>
+        <P>
+          {" "}
+          <Text as="b" fontSize="md" mr={2}>
+            2.
+          </Text>
+          can get a result with an analysis.
+        </P>
+        <P>
+          {" "}
+          <Text as="b" fontSize="md" mr={2}>
+            3.
+          </Text>
+          also authentication system is added.
+        </P>
+
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Frontend</Meta>
+            <Meta>Github</Meta>
             <Link
-              href="https://github.com/Tamanna14-cpu/candle-shop"
+              href="https://github.com/tamannaBithy/quiz-app"
               target="_blank"
             >
-              https://github.com/Tamanna14-cpu/candle-shop{" "}
+              https://github.com/tamannaBithy/quiz-app{" "}
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
 
           <ListItem>
-            <Meta>Backend</Meta>
+            <Meta>Website</Meta>
             <Link
-              href="https://github.com/Tamanna14-cpu/candle-shop-server"
+              href="https://joyful-conkies-60a632.netlify.app/"
               target="_blank"
             >
-              https://github.com/Tamanna14-cpu/candle-shop-server{" "}
-              <ExternalLinkIcon />
-            </Link>
-          </ListItem>
-
-          <ListItem>
-            <Meta>Website</Meta>
-            <Link href="https://react-candle-shop.web.app/" target="_blank">
-              https://react-candle-shop.web.app/ <ExternalLinkIcon mx="2px" />
+              https://joyful-conkies-60a632.netlify.app/{" "}
+              <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
 
           <ListItem>
             <Meta>Stack</Meta>
+
             <span>
-              firebase, mongoDB, react, react-hook-form, expressJS, heroku
+              React, React-lazy-load, React-player, Firebase, Firebase-database
             </span>
           </ListItem>
         </List>

@@ -20,10 +20,10 @@ const Work = () => {
           <ListItem>
             <Meta>Frontend</Meta>
             <Link
-              href="https://github.com/Tamanna14-cpu/candle-shop"
+              href="https://github.com/tamannaBithy/candle-shop"
               target="_blank"
             >
-              https://github.com/Tamanna14-cpu/candle-shop{" "}
+              https://github.com/tamannaBithy/candle-shop{" "}
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
@@ -31,10 +31,10 @@ const Work = () => {
           <ListItem>
             <Meta>Backend</Meta>
             <Link
-              href="https://github.com/Tamanna14-cpu/candle-shop-server"
+              href="https://github.com/tamannaBithy/candle-shop-server"
               target="_blank"
             >
-              https://github.com/Tamanna14-cpu/candle-shop-server{" "}
+              https://github.com/tamannaBithy/candle-shop-server{" "}
               <ExternalLinkIcon />
             </Link>
           </ListItem>
@@ -53,9 +53,6 @@ const Work = () => {
             </span>
           </ListItem>
         </List>
-
-        {/* <WorkImage src="/images/works/inkdrop_01.png" alt="candleShop" />
-            <WorkImage src="/images/works/inkdrop_02.png" alt="candleShop" /> */}
       </Container>
     </Layout>
   );

@@ -20,28 +20,20 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem
-              id="candleShop"
-              title="candleShop"
-              thumbnail={candleShop}
-            >
-              A website with crud operation
+            <WorkGridItem id="travel" title="CHT-Travel" thumbnail={travel}>
+              a hotel booking site along with dashboard
             </WorkGridItem>
           </Section>
 
           <Section>
-            <WorkGridItem id="travel" title="travel" thumbnail={travel}>
-              for booking a hotel
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem id="quiz" title="quiz" thumbnail={quiz}>
-              a quiz app
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem id="jobBox" title="jobBox" thumbnail={jobBox}>
+            <WorkGridItem id="jobBox" title="Job Box" thumbnail={jobBox}>
               a project with RTK query
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem id="quiz" title="Quiz-app" thumbnail={quiz}>
+              javascript quiz application
             </WorkGridItem>
           </Section>
         </SimpleGrid>
@@ -56,14 +48,18 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="todoList" title="todoList" thumbnail={todoList}>
-              a todoList app
+            <WorkGridItem
+              id="candleShop"
+              title="Candle Shop"
+              thumbnail={candleShop}
+            >
+              A website with crud operation
             </WorkGridItem>
           </Section>
 
           <Section>
-            <WorkGridItem id="weather" title="Weather" thumbnail={weather}>
-              checking weather as your searched city
+            <WorkGridItem id="todoList" title="Todo-App" thumbnail={todoList}>
+              a todoList app
             </WorkGridItem>
           </Section>
         </SimpleGrid>

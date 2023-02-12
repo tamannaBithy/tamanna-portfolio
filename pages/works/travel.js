@@ -1,5 +1,5 @@
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import { Badge, Container, Link, List, ListItem } from "@chakra-ui/react";
+import { Badge, Container, Link, List, ListItem, Text } from "@chakra-ui/react";
 import Layout from "../../components/layouts/article";
 import { Meta, Title } from "../../components/work";
 import P from "../../components/paragraph";
@@ -9,14 +9,47 @@ const Work = () => {
     <Layout title="travel">
       <Container>
         <Title>
-          CandleShop <Badge>Nov, 2021 </Badge>
+          CHT-Travel <Badge>Jan, 2023 </Badge>
         </Title>
         <P>
-          this site is designed with react.js & mongodb data base has been used
-          as along. firebase authentication system added for authentication.
+          <Text as="b" fontSize="md">
+            1.{" "}
+          </Text>
+          this site is designed for booking hotels in an area of Bangladesh
+          where users can view the hotel list & other upcoming services.
+        </P>
+        <P>
+          {" "}
+          <Text as="b" fontSize="md" mr={2}>
+            2.
+          </Text>
+          SSL Commerz(a Bangladeshi payment system) payment method has been
+          integrated.
+        </P>
+        <P>
+          {" "}
+          <Text as="b" fontSize="md" mr={2}>
+            3.
+          </Text>
+          A dashboard for maintaining website content.
+        </P>
+        <P>
+          {" "}
+          <Text as="b" fontSize="md" mr={2}>
+            4.
+          </Text>
+          Users can search by hotel name & can filter by rating.
+        </P>
+        <P>
+          {" "}
+          <Text as="b" fontSize="md" mr={2}>
+            5.
+          </Text>
+          Admin can add new hotel, can update hotel info, can delete a hotel
+          also can add a new admin.
         </P>
         <List ml={4} my={4}>
-          <ListItem>
+          {/* <ListItem>
             <Meta>Frontend</Meta>
             <Link
               href="https://github.com/Tamanna14-cpu/candle-shop"
@@ -25,9 +58,9 @@ const Work = () => {
               https://github.com/Tamanna14-cpu/candle-shop{" "}
               <ExternalLinkIcon mx="2px" />
             </Link>
-          </ListItem>
+          </ListItem> */}
 
-          <ListItem>
+          {/* <ListItem>
             <Meta>Backend</Meta>
             <Link
               href="https://github.com/Tamanna14-cpu/candle-shop-server"
@@ -36,25 +69,23 @@ const Work = () => {
               https://github.com/Tamanna14-cpu/candle-shop-server{" "}
               <ExternalLinkIcon />
             </Link>
-          </ListItem>
+          </ListItem> */}
 
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://react-candle-shop.web.app/" target="_blank">
-              https://react-candle-shop.web.app/ <ExternalLinkIcon mx="2px" />
+            <Link href="https://cht-travel.netlify.app/" target="_blank">
+              https://cht-travel.netlify.app/ <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
 
           <ListItem>
             <Meta>Stack</Meta>
             <span>
-              firebase, mongoDB, react, react-hook-form, expressJS, heroku
+              React, RTK-query, Firebase, express.js, MongoDB, Tailwind,
+              SSLCommerz
             </span>
           </ListItem>
         </List>
-
-        {/* <WorkImage src="/images/works/inkdrop_01.png" alt="candleShop" />
-            <WorkImage src="/images/works/inkdrop_02.png" alt="candleShop" /> */}
       </Container>
     </Layout>
   );
