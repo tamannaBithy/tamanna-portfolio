@@ -23,28 +23,10 @@ import {
   IoLogoGithub,
   IoMail,
 } from "react-icons/io5";
-import Head from "next/head";
 
 export default function Home() {
   return (
     <>
-      {" "}
-      <Head>
-        <script type="application/ld+json">
-          {`
-          {
-            "@context": "https://github.com/tamannaBithy",
-            "@type": "Personal",
-            "name": "Tamanna Akter Bithy | Portfolio of a Full-stack dev",
-            "url": "tamanna-portfolio.vercel.app/",
-            "sameAs": [
-              "https://www.linkedin.com/in/tamanna-akter/",
-              "https://github.com/tamannaBithy"
-            ]
-          }
-        `}
-        </script>
-      </Head>
       <Layout>
         <Container>
           <Box

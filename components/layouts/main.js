@@ -8,14 +8,19 @@ const Main = ({ children, router }) => {
   return (
     <Box>
       <Head>
-        <title>Tamanna Akter Bithy | Portfolio of a Full-stack dev</title>
-        <meta
-          name="description"
-          content="Tamanna is a full-stack developer focused on crafting clean &
-          user‑friendly experiences. She is passionate about building
-          excellent application that improves the lives around us.
-          She've completed 10+ projects based on React.js & Node.js."
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Tamanna's homepage" />
+        <meta name="author" content="Tamanna Akter" />
+        <link rel="canonical" href="https://github.com/tamannaBithy" />
+        <link
+          rel="canonical"
+          href="https://www.linkedin.com/in/tamanna-akter/"
         />
+        <meta property="og:site_name" content="Tamanna Akter" />
+        <meta name="og:title" content="Tamanna Akter" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.craftz.dog/card.png" />
+        <title>Tamanna Akter Bithy | A Full-stack dev</title>
       </Head>
 
       <Navbar path={router.asPath} />

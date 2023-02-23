@@ -2,11 +2,7 @@ import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
 import { WorkGridItem } from "../components/gridItem";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
-import candleShop from "../public/images/works/candle.png";
-import todoList from "../public/images/works/todo.png";
-import weather from "../public/images/works/weather.png";
 import travel from "../public/images/works/travel.png";
-import quiz from "../public/images/works/quiz.png";
 import jobBox from "../public/images/works/jobbox.png";
 
 const Works = () => {
@@ -30,39 +26,21 @@ const Works = () => {
               a project with RTK query
             </WorkGridItem>
           </Section>
-
-          <Section>
-            <WorkGridItem id="quiz" title="Quiz-app" thumbnail={quiz}>
-              javascript quiz application
-            </WorkGridItem>
-          </Section>
         </SimpleGrid>
 
-        <Section delay={0.4}>
+        {/* <Section delay={0.4}>
           <Divider my={6} />
 
           <Heading as="h3" fontSize={20} mb={4}>
             Old works
           </Heading>
-        </Section>
+        </Section> */}
 
-        <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section>
-            <WorkGridItem
-              id="candleShop"
-              title="Candle Shop"
-              thumbnail={candleShop}
-            >
-              A website with crud operation
-            </WorkGridItem>
-          </Section>
+        {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          
 
-          <Section>
-            <WorkGridItem id="todoList" title="Todo-App" thumbnail={todoList}>
-              a todoList app
-            </WorkGridItem>
-          </Section>
-        </SimpleGrid>
+         
+        </SimpleGrid> */}
       </Container>
     </Layout>
   );
