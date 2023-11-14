@@ -49,32 +49,10 @@ const Work = () => {
           also can add a new admin.
         </P>
         <List ml={4} my={4}>
-          {/* <ListItem>
-            <Meta>Frontend</Meta>
-            <Link
-              href="https://github.com/Tamanna14-cpu/candle-shop"
-              target="_blank"
-            >
-              https://github.com/Tamanna14-cpu/candle-shop{" "}
-              <ExternalLinkIcon mx="2px" />
-            </Link>
-          </ListItem> */}
-
-          {/* <ListItem>
-            <Meta>Backend</Meta>
-            <Link
-              href="https://github.com/Tamanna14-cpu/candle-shop-server"
-              target="_blank"
-            >
-              https://github.com/Tamanna14-cpu/candle-shop-server{" "}
-              <ExternalLinkIcon />
-            </Link>
-          </ListItem> */}
-
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://cht-travel.netlify.app/" target="_blank">
-              https://cht-travel.netlify.app/ <ExternalLinkIcon mx="2px" />
+            <Link href="https://cht.hilltractstech.com" target="_blank">
+              https://cht.hilltractstech.com <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
 

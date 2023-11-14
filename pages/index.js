@@ -31,7 +31,8 @@ export default function Home() {
         <Container>
           <Box
             borderRadius="lg"
-            bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+            // bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+            bg={useColorModeValue("gray.50", "whiteAlpha.200")}
             mb={6}
             p={3}
             textAlign="center"
@@ -44,7 +45,7 @@ export default function Home() {
               <Heading as="h2" variant="page-title">
                 Tamanna Akter
               </Heading>
-              <p>Digital Craftsman, give your thought a live view by coding.</p>
+              <p>Full-Stack Developer</p>
             </Box>
 
             <Box
@@ -58,8 +59,8 @@ export default function Home() {
                 borderWidth={2}
                 borderStyle="solid"
                 display="inline-block"
-                style={{ width: "110px", height: "115px", borderRadius: "50%" }}
-                src="/images/profile.jpg"
+                style={{ width: "110px", height: "110px", borderRadius: "50%" }}
+                src="/images/tamanna-akter.jpg"
                 alt="Profile image"
               ></Image>
             </Box>
@@ -67,17 +68,26 @@ export default function Home() {
 
           <Section delay={0.5}>
             <Heading as="h3" variant="section-title">
-              Work
+              About
             </Heading>
 
             <Paragraph>
-              Tamanna is a full-stack developer focused on crafting clean &
+              {/* Tamanna is a full-stack developer focused on crafting clean &
               user‑friendly experiences. She is passionate about building
               excellent application that improves the lives around us.
               She&apos;ve completed 10+ projects based on React.js & Node.js.
               Versatile and enthusiastic individual in search of an entry level
               position as a full-stack developer in a company that encourages
-              growth and flexibility.
+              growth and flexibility. */}
+              With 1+ years of industry experience, I've worked with NEXT JS,
+              REACT, NODE JS, and MongoDB for database management. I'm
+              proficient with various JavaScript frameworks, and my main
+              interests lie in full-stack web development.
+              <br /> As a Frontend Developer at LetsDunch, I developed and
+              maintained UI components using React.js and Tailwind CSS. I
+              collaborated with cross-functional teams to integrate APIs,
+              implemented features like meeting booking and expert profile
+              updates, and consistently delivered bug fixes and enhancements.
             </Paragraph>
 
             <Flex align="center" my={4} justify="space-evenly">
@@ -99,26 +109,26 @@ export default function Home() {
 
           <Section delay={0.5}>
             <Heading as="h3" variant="section-title">
-              Bio
+              Experience
             </Heading>
 
-            <BioSection>
+            {/* <BioSection>
               <BioYear>1999</BioYear>
               Born in Cumilla, Bangladesh.
-            </BioSection>
-
-            <BioSection>
-              <BioYear>2019 - Present</BioYear>
-              Studying English Literature at National University, Bangladesh.
-            </BioSection>
+            </BioSection> */}
 
             {/* <BioSection>
-            <BioYear>Jan, 2022 - Nov,2022</BioYear>
-            Worked as a Frontend Developer at Lets Dunch.
-          </BioSection> */}
+              <BioYear>2019 - Present</BioYear>
+              Studying English Literature at National University, Bangladesh.
+            </BioSection> */}
+
+            <BioSection>
+              <BioYear>Jan, 2022 - Nov,2022</BioYear>
+              Worked as a Frontend Developer at Lets Dunch.
+            </BioSection>
           </Section>
 
-          <Section delay={0.5}>
+          {/* <Section delay={0.5}>
             <Heading as="h3" variant="section-title">
               I ♥
             </Heading>
@@ -126,11 +136,12 @@ export default function Home() {
             <Paragraph>
               Art, Music, Illustration, Travelling & Coding.{" "}
             </Paragraph>
-          </Section>
+          </Section> */}
 
           <Section delay={0.3}>
             <Heading as="h3" variant="section-title">
-              On the web
+              {/* On the web */}
+              Contacts
             </Heading>
             <List>
               <ListItem>
@@ -161,7 +172,7 @@ export default function Home() {
 
               <ListItem>
                 <Link
-                  href="https://web.facebook.com/chayabithy.kusum/"
+                  href="https://www.facebook.com/tamannaBithy14/"
                   target="_blank"
                 >
                   <Button

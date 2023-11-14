@@ -20,7 +20,7 @@ const Main = ({ children, router }) => {
         <meta name="og:title" content="Tamanna Akter" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.craftz.dog/card.png" />
-        <title>Tamanna Akter Bithy | A Full-stack dev</title>
+        <title>Tamanna Akter | A Full-stack dev</title>
       </Head>
 
       <Navbar path={router.asPath} />
