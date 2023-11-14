@@ -79,8 +79,8 @@ export default function Home() {
               Versatile and enthusiastic individual in search of an entry level
               position as a full-stack developer in a company that encourages
               growth and flexibility. */}
-              With 1+ years of industry experience, I've worked with NEXT JS,
-              REACT, NODE JS, and MongoDB for database management. I'm
+              With 1+ years of industry experience, I&aposve worked with NEXT
+              JS, REACT, NODE JS, and MongoDB for database management. I&aposm
               proficient with various JavaScript frameworks, and my main
               interests lie in full-stack web development.
               <br /> As a Frontend Developer at LetsDunch, I developed and
