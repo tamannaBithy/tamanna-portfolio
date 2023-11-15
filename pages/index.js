@@ -83,11 +83,19 @@ export default function Home() {
               JS, REACT, NODE JS, and MongoDB for database management. I&aposm
               proficient with various JavaScript frameworks, and my main
               interests lie in full-stack web development.
-              <br /> As a Frontend Developer at LetsDunch, I developed and
-              maintained UI components using React.js and Tailwind CSS. I
-              collaborated with cross-functional teams to integrate APIs,
-              implemented features like meeting booking and expert profile
-              updates, and consistently delivered bug fixes and enhancements.
+              <br /> <br /> As a Frontend Developer at{" "}
+              <Link
+                href="https://www.linkedin.com/company/letsdunch"
+                passHref
+                target="_blank"
+              >
+                Lets Dunch
+              </Link>{" "}
+              , I developed and maintained UI components using React.js and
+              Tailwind CSS. I collaborated with cross-functional teams to
+              integrate APIs, implemented features like meeting booking and
+              expert profile updates, and consistently delivered bug fixes and
+              enhancements.
             </Paragraph>
 
             <Flex align="center" my={4} justify="space-evenly">
@@ -99,7 +107,7 @@ export default function Home() {
                   My Resume
                 </Button>
               </Link>
-              <NextLink href="/works">
+              <NextLink href="/projects">
                 <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                   My Projects
                 </Button>
@@ -111,11 +119,6 @@ export default function Home() {
             <Heading as="h3" variant="section-title">
               Experience
             </Heading>
-
-            {/* <BioSection>
-              <BioYear>1999</BioYear>
-              Born in Cumilla, Bangladesh.
-            </BioSection> */}
 
             {/* <BioSection>
               <BioYear>2019 - Present</BioYear>
@@ -149,7 +152,7 @@ export default function Home() {
                   <Button
                     variant="ghost"
                     colorScheme="teal"
-                    leftIcon={<Icon as={IoLogoGithub} />}
+                    leftIcon={<Icon as={IoLogoGithub} fontSize={20} />}
                   >
                     @tamannaBithy
                   </Button>
@@ -163,7 +166,7 @@ export default function Home() {
                   <Button
                     variant="ghost"
                     colorScheme="teal"
-                    leftIcon={<Icon as={IoLogoLinkedin} />}
+                    leftIcon={<Icon as={IoLogoLinkedin} fontSize={20} />}
                   >
                     @tamanna-akter
                   </Button>
@@ -178,7 +181,7 @@ export default function Home() {
                   <Button
                     variant="ghost"
                     colorScheme="teal"
-                    leftIcon={<Icon as={IoLogoFacebook} />}
+                    leftIcon={<Icon as={IoLogoFacebook} fontSize={20} />}
                   >
                     @tamanna-bithy
                   </Button>
@@ -190,7 +193,7 @@ export default function Home() {
                   <Button
                     variant="ghost"
                     colorScheme="teal"
-                    leftIcon={<Icon as={IoMail} />}
+                    leftIcon={<Icon as={IoMail} fontSize={20} />}
                   >
                     tamannabithy14@gmail.com
                   </Button>

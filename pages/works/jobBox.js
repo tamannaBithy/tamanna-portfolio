@@ -17,7 +17,7 @@ const Work = () => {
           <Text as="b" fontSize="md" mr={2}>
             1.
           </Text>
-          a job application where candidate can apply for jobs & employer can
+          A job application where candidate can apply for jobs & employer can
           add jobs.
         </P>
         <P>
@@ -25,7 +25,7 @@ const Work = () => {
           <Text as="b" fontSize="md" mr={2}>
             2.
           </Text>
-          candidate can ask any question regarding the job & employer can reply
+          Candidate can ask any question regarding the job & employer can reply
           on that specific job details page.
         </P>
         <P>
@@ -66,7 +66,7 @@ const Work = () => {
         </P>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Frontend</Meta>
+            <Meta>Client-Side</Meta>
             <Link
               href="https://github.com/tamannaBithy/jobbx-starter"
               target="_blank"
@@ -77,7 +77,7 @@ const Work = () => {
           </ListItem>
 
           <ListItem>
-            <Meta>Backend</Meta>
+            <Meta>Server-Side</Meta>
             <Link
               href="https://github.com/tamannaBithy/jobbox-server"
               target="_blank"

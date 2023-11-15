@@ -7,10 +7,10 @@ import asyncJs from "../public/images/posts/asynchronous.jpg";
 import crud from "../public/images/posts/crud.jpg";
 
 const Posts = () => (
-  <Layout title="Posts">
+  <Layout title="Articles">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Popular Posts
+        Articles
       </Heading>
 
       <Section delay={0.3}>

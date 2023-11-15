@@ -15,7 +15,7 @@ const Work = () => {
           <Text as="b" fontSize="md">
             1.{" "}
           </Text>
-          this site is designed for booking hotels in an area of Bangladesh
+          This site is designed for booking hotels in an area of Bangladesh
           where users can view the hotel list & other upcoming services.
         </P>
         <P>

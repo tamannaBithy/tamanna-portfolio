@@ -7,11 +7,11 @@ import jobBox from "../public/images/works/jobbox.png";
 
 const Works = () => {
   return (
-    <Layout title="Works">
+    <Layout title="Projects">
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
           {" "}
-          Works{" "}
+          Projects{" "}
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>

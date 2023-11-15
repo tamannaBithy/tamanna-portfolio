@@ -9,7 +9,10 @@ const Main = ({ children, router }) => {
     <Box>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Tamanna's homepage" />
+        <meta
+          name="description"
+          content="who knows to beautify things with code"
+        />
         <meta name="author" content="Tamanna Akter" />
         <link rel="canonical" href="https://github.com/tamannaBithy" />
         <link
@@ -19,8 +22,13 @@ const Main = ({ children, router }) => {
         <meta property="og:site_name" content="Tamanna Akter" />
         <meta name="og:title" content="Tamanna Akter" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
-        <title>Tamanna Akter | A Full-stack dev</title>
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/9Tdg32n/Tamanna-Akter.jpg"
+        />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="150" />
+        <title>Tamanna Akter | Full-Stack Developer</title>
       </Head>
 
       <Navbar path={router.asPath} />
