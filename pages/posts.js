@@ -3,8 +3,8 @@ import { GridItem } from "../components/gridItem";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 
-// import asyncJs from '../public/images/posts/asynchronous.jpg'
-// import crud from '../public/images/posts/crud.jpg'
+import asyncJs from "../public/images/posts/asynchronous.jpg";
+import crud from "../public/images/posts/crud.jpg";
 
 const Posts = () => (
   <Layout title="Posts">
@@ -17,12 +17,12 @@ const Posts = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="Asynchronous Behaviour of javascript"
-            thumbnail="/images/posts/asynchronous.jpg"
+            thumbnail={asyncJs}
             href="https://medium.com/@bimurto.bithy14/asynchronous-behaviour-of-javascript-d9c751e6ef82"
           />
           <GridItem
             title="CRUD Operation"
-            thumbnail="/images/posts/crud.jpg"
+            thumbnail={crud}
             href="https://medium.com/@bimurto.bithy14/crud-operations-a1d6f599f170"
           />
         </SimpleGrid>
