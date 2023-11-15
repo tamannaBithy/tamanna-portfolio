@@ -48,7 +48,7 @@ const Work = () => {
           Admin can add new hotel, can update hotel info, can delete a hotel
           also can add a new admin.
         </P>
-        <List ml={4} my={4}>
+        <List my={4}>
           <ListItem>
             <Meta>Website</Meta>
             <Link href="https://cht.hilltractstech.com" target="_blank">

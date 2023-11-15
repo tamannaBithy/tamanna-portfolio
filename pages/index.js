@@ -9,6 +9,7 @@ import {
   Link,
   List,
   ListItem,
+  Text,
   useColorModeValue,
 } from "@chakra-ui/react";
 import Paragraph from "../components/paragraph";
@@ -23,6 +24,7 @@ import {
   IoLogoGithub,
   IoMail,
 } from "react-icons/io5";
+import { Meta } from "../components/work";
 
 export default function Home() {
   return (
@@ -83,19 +85,11 @@ export default function Home() {
               JS, REACT, NODE JS, and MongoDB for database management. I&aposm
               proficient with various JavaScript frameworks, and my main
               interests lie in full-stack web development.
-              <br /> <br /> As a Frontend Developer at{" "}
-              <Link
-                href="https://www.linkedin.com/company/letsdunch"
-                passHref
-                target="_blank"
-              >
-                Lets Dunch
-              </Link>{" "}
-              , I developed and maintained UI components using React.js and
-              Tailwind CSS. I collaborated with cross-functional teams to
-              integrate APIs, implemented features like meeting booking and
-              expert profile updates, and consistently delivered bug fixes and
-              enhancements.
+              <br /> <br /> As a Frontend Developer at Lets Dunch , I developed
+              and maintained UI components using React.js and Tailwind CSS. I
+              collaborated with cross-functional teams to integrate APIs,
+              implemented features like meeting booking and expert profile
+              updates, and consistently delivered bug fixes and enhancements.
             </Paragraph>
 
             <Flex align="center" my={4} justify="space-evenly">
@@ -120,15 +114,53 @@ export default function Home() {
               Experience
             </Heading>
 
-            {/* <BioSection>
-              <BioYear>2019 - Present</BioYear>
-              Studying English Literature at National University, Bangladesh.
-            </BioSection> */}
-
-            <BioSection>
+            <BioSection mb={4}>
               <BioYear>Jan, 2022 - Nov,2022</BioYear>
-              Worked as a Frontend Developer at Lets Dunch.
+              Frontend Developer at{" "}
+              <Link
+                href="https://www.linkedin.com/company/letsdunch"
+                passHref
+                target="_blank"
+              >
+                Lets Dunch
+              </Link>{" "}
             </BioSection>
+
+            <Paragraph>
+              <Text as="b" fontSize="md">
+                1.{" "}
+              </Text>
+              Developed front-end code using React.js with Tailwind CSS,
+              ensuring a responsive and user-friendly website interface.
+            </Paragraph>
+            <Paragraph>
+              {" "}
+              <Text as="b" fontSize="md" mr={2}>
+                2.
+              </Text>
+              Implement core features, including meeting booking, dashboard
+              redesign, meeting rescheduling, expert profile updates, and
+              landing page redesign, leading to enhanced user engagement and
+              satisfaction.
+            </Paragraph>
+
+            <Paragraph>
+              {" "}
+              <Text as="b" fontSize="md" mr={2}>
+                3.
+              </Text>
+              Improved website performance by 30% through Redux implementation,
+              enhancing user interactions and reducing loading times.
+            </Paragraph>
+
+            <List my={4}>
+              <ListItem>
+                <Meta>Skills</Meta>
+                <span>
+                  React.js, Front-end Development, Redux, Tailwind CSS, Figma
+                </span>
+              </ListItem>
+            </List>
           </Section>
 
           {/* <Section delay={0.5}>

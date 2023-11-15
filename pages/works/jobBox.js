@@ -64,7 +64,7 @@ const Work = () => {
           </Text>
           Employer & candidate can chat with each other.
         </P>
-        <List ml={4} my={4}>
+        <List my={4}>
           <ListItem>
             <Meta>Client-Side</Meta>
             <Link
@@ -100,9 +100,6 @@ const Work = () => {
             </span>
           </ListItem>
         </List>
-
-        {/* <WorkImage src="/images/works/inkdrop_01.png" alt="candleShop" />
-            <WorkImage src="/images/works/inkdrop_02.png" alt="candleShop" /> */}
       </Container>
     </Layout>
   );
