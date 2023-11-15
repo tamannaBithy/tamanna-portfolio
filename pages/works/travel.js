@@ -6,7 +6,7 @@ import P from "../../components/paragraph";
 
 const Work = () => {
   return (
-    <Layout title="travel">
+    <Layout title="CHT-Travel">
       <Container>
         <Title>
           CHT-Travel <Badge>Jan, 2023 </Badge>
