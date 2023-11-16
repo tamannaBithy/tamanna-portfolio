@@ -66,27 +66,6 @@ const Work = () => {
         </P>
         <List my={4}>
           <ListItem>
-            <Meta>Client-Side</Meta>
-            <Link
-              href="https://github.com/tamannaBithy/jobbx-starter"
-              target="_blank"
-            >
-              https://github.com/tamannaBithy/jobbx-starter{" "}
-              <ExternalLinkIcon mx="2px" />
-            </Link>
-          </ListItem>
-
-          <ListItem>
-            <Meta>Server-Side</Meta>
-            <Link
-              href="https://github.com/tamannaBithy/jobbox-server"
-              target="_blank"
-            >
-              https://github.com/tamannaBithy/jobbox-server <ExternalLinkIcon />
-            </Link>
-          </ListItem>
-
-          <ListItem>
             <Meta>Website</Meta>
             <Link href="https://jobbx-starter.vercel.app/" target="_blank">
               https://jobbx-starter.vercel.app/ <ExternalLinkIcon mx="2px" />

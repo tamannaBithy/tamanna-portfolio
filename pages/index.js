@@ -9,7 +9,6 @@ import {
   Link,
   List,
   ListItem,
-  Text,
   useColorModeValue,
 } from "@chakra-ui/react";
 import Paragraph from "../components/paragraph";
@@ -101,7 +100,7 @@ export default function Home() {
                   My Resume
                 </Button>
               </Link>
-              <NextLink href="/projects">
+              <NextLink href="/works">
                 <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                   My Projects
                 </Button>
@@ -119,7 +118,7 @@ export default function Home() {
               Frontend Developer at{" "}
               <Link
                 href="https://www.linkedin.com/company/letsdunch"
-                passHref
+                passhref
                 target="_blank"
               >
                 Lets Dunch
@@ -127,30 +126,24 @@ export default function Home() {
             </BioSection>
 
             <Paragraph>
-              <Text as="b" fontSize="md">
-                1.{" "}
-              </Text>
-              Developed front-end code using React.js with Tailwind CSS,
-              ensuring a responsive and user-friendly website interface.
-            </Paragraph>
-            <Paragraph>
-              {" "}
-              <Text as="b" fontSize="md" mr={2}>
-                2.
-              </Text>
-              Implement core features, including meeting booking, dashboard
-              redesign, meeting rescheduling, expert profile updates, and
-              landing page redesign, leading to enhanced user engagement and
-              satisfaction.
-            </Paragraph>
-
-            <Paragraph>
-              {" "}
-              <Text as="b" fontSize="md" mr={2}>
-                3.
-              </Text>
-              Improved website performance by 30% through Redux implementation,
-              enhancing user interactions and reducing loading times.
+              <li>
+                {" "}
+                Developed front-end code using React.js with Tailwind CSS,
+                ensuring a responsive and user-friendly website interface.
+              </li>
+              <li>
+                {" "}
+                Implement core features, including meeting booking, dashboard
+                redesign, meeting rescheduling, expert profile updates, and
+                landing page redesign, leading to enhanced user engagement and
+                satisfaction.
+              </li>
+              <li>
+                {" "}
+                Improved website performance by 30% through Redux
+                implementation, enhancing user interactions and reducing loading
+                times.
+              </li>
             </Paragraph>
 
             <List my={4}>
