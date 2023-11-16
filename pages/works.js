@@ -17,13 +17,13 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem id="travel" title="CHT-Travel" thumbnail={travel}>
-              a hotel booking site along with dashboard
+              A hotel booking site along with dashboard
             </WorkGridItem>
           </Section>
 
           <Section>
             <WorkGridItem id="jobBox" title="Job Box" thumbnail={jobBox}>
-              a project with RTK query
+              A project using RTK query
             </WorkGridItem>
           </Section>
         </SimpleGrid>

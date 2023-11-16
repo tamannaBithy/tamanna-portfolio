@@ -68,7 +68,7 @@ const Work = () => {
           <ListItem>
             <Meta>Website</Meta>
             <Link href="https://jobbx-starter.vercel.app/" target="_blank">
-              https://jobbx-starter.vercel.app/ <ExternalLinkIcon mx="2px" />
+              https://jobbx-starter.vercel.app <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
 
