@@ -11,7 +11,7 @@ const Main = ({ children, router }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
-          content="who knows to beautify things with code"
+          content="I Build custom Website Solutions That help Your Business Grow"
         />
         <meta name="author" content="Tamanna Akter" />
         <link rel="canonical" href="https://github.com/tamannaBithy" />
